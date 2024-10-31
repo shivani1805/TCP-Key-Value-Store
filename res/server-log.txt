@@ -1,0 +1,51 @@
+[2024-10-25 11:50:43.598] TCP Server is starting on port 1024
+[2024-10-25 11:50:43.908] Data Population Completed
+[2024-10-25 11:50:43.936] Waiting for client connection...
+[2024-10-25 11:51:10.389] Connection established with 127.0.0.1:49560
+[2024-10-25 11:51:17.483] Received: # Getting existing values
+[2024-10-25 11:51:17.485] Sent: Error: Unknown command
+[2024-10-25 11:51:17.503] Received: GET 1
+[2024-10-25 11:51:17.506] Sent: Success: Key=1, Value=Introduction_to_Java
+[2024-10-25 11:51:17.508] Received: GET 2
+[2024-10-25 11:51:17.509] Sent: Success: Key=2, Value=Data_Structures_and_Algorithms
+[2024-10-25 11:51:17.511] Received: GET 3
+[2024-10-25 11:51:17.512] Sent: Success: Key=3, Value=Operating_Systems
+[2024-10-25 11:51:17.514] Received: GET 4
+[2024-10-25 11:51:17.516] Sent: Success: Key=4, Value=Database_Management_Systems
+[2024-10-25 11:51:17.517] Received: GET 5
+[2024-10-25 11:51:17.520] Sent: Success: Key=5, Value=Computer_Networks
+[2024-10-25 11:51:17.522] Received: # Adding new values
+[2024-10-25 11:51:17.523] Sent: Error: Unknown command
+[2024-10-25 11:51:17.525] Received: PUT 11 Web_Security
+[2024-10-25 11:51:17.526] Sent: Success: Key=11, Value=Web_Security stored.
+[2024-10-25 11:51:17.527] Received: PUT 12 Data_Mining
+[2024-10-25 11:51:17.528] Sent: Success: Key=12, Value=Data_Mining stored.
+[2024-10-25 11:51:17.530] Received: PUT 13 Cloud_Computing
+[2024-10-25 11:51:17.531] Sent: Success: Key=13, Value=Cloud_Computing stored.
+[2024-10-25 11:51:17.535] Received: PUT 14 Discrete_Maths
+[2024-10-25 11:51:17.536] Sent: Success: Key=14, Value=Discrete_Maths stored.
+[2024-10-25 11:51:17.538] Received: PUT 15 Human_Computer_Interaction
+[2024-10-25 11:51:17.539] Sent: Success: Key=15, Value=Human_Computer_Interaction stored.
+[2024-10-25 11:51:17.540] Received: # Deleting existing values
+[2024-10-25 11:51:17.541] Sent: Error: Unknown command
+[2024-10-25 11:51:17.544] Received: DELETE 5
+[2024-10-25 11:51:17.554] Sent: Success: Key=5 deleted.
+[2024-10-25 11:51:17.558] Received: DELETE 6
+[2024-10-25 11:51:17.559] Sent: Success: Key=6 deleted.
+[2024-10-25 11:51:17.561] Received: DELETE 7
+[2024-10-25 11:51:17.562] Sent: Success: Key=7 deleted.
+[2024-10-25 11:51:17.564] Received: DELETE 8
+[2024-10-25 11:51:17.565] Sent: Success: Key=8 deleted.
+[2024-10-25 11:51:17.568] Received: DELETE 9
+[2024-10-25 11:51:17.569] Sent: Success: Key=9 deleted.
+[2024-10-25 11:52:24.279] Received: GET 9
+[2024-10-25 11:52:24.281] Sent: Error: Key not found
+[2024-10-25 11:52:34.960] Received: PUT 9 Machine_Learning
+[2024-10-25 11:52:34.961] Sent: Success: Key=9, Value=Machine_Learning stored.
+[2024-10-25 11:52:46.679] Received: GET 9
+[2024-10-25 11:52:46.680] Sent: Success: Key=9, Value=Machine_Learning
+[2024-10-25 11:52:54.741] Received: DELETE 9
+[2024-10-25 11:52:54.744] Sent: Success: Key=9 deleted.
+[2024-10-25 11:52:59.875] Received: GET 9 
+[2024-10-25 11:52:59.876] Sent: Error: Key not found
+[2024-10-25 11:53:13.379] Waiting for client connection...

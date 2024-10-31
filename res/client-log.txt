@@ -1,0 +1,55 @@
+[2024-10-25 11:51:10.242] Starting TCP Client
+[2024-10-25 11:51:10.351] Attempting connection to localhost on port 1024
+[2024-10-25 11:51:10.387] Connection established.
+[2024-10-25 11:51:10.388] Enter 'run' to execute the operations script, 'console' to enter commands manually, or 'close' to exit: 
+[2024-10-25 11:51:17.477] Command sent: # Getting existing values
+[2024-10-25 11:51:17.487] Received: Error: Unknown command
+[2024-10-25 11:51:17.503] Command sent: GET 1
+[2024-10-25 11:51:17.507] Received: Success: Key=1, Value=Introduction_to_Java
+[2024-10-25 11:51:17.508] Command sent: GET 2
+[2024-10-25 11:51:17.509] Received: Success: Key=2, Value=Data_Structures_and_Algorithms
+[2024-10-25 11:51:17.511] Command sent: GET 3
+[2024-10-25 11:51:17.513] Received: Success: Key=3, Value=Operating_Systems
+[2024-10-25 11:51:17.514] Command sent: GET 4
+[2024-10-25 11:51:17.516] Received: Success: Key=4, Value=Database_Management_Systems
+[2024-10-25 11:51:17.517] Command sent: GET 5
+[2024-10-25 11:51:17.521] Received: Success: Key=5, Value=Computer_Networks
+[2024-10-25 11:51:17.522] Command sent: # Adding new values
+[2024-10-25 11:51:17.524] Received: Error: Unknown command
+[2024-10-25 11:51:17.525] Command sent: PUT 11 Web_Security
+[2024-10-25 11:51:17.526] Received: Success: Key=11, Value=Web_Security stored.
+[2024-10-25 11:51:17.527] Command sent: PUT 12 Data_Mining
+[2024-10-25 11:51:17.529] Received: Success: Key=12, Value=Data_Mining stored.
+[2024-10-25 11:51:17.530] Command sent: PUT 13 Cloud_Computing
+[2024-10-25 11:51:17.533] Received: Success: Key=13, Value=Cloud_Computing stored.
+[2024-10-25 11:51:17.534] Command sent: PUT 14 Discrete_Maths
+[2024-10-25 11:51:17.537] Received: Success: Key=14, Value=Discrete_Maths stored.
+[2024-10-25 11:51:17.538] Command sent: PUT 15 Human_Computer_Interaction
+[2024-10-25 11:51:17.539] Received: Success: Key=15, Value=Human_Computer_Interaction stored.
+[2024-10-25 11:51:17.540] Command sent: # Deleting existing values
+[2024-10-25 11:51:17.541] Received: Error: Unknown command
+[2024-10-25 11:51:17.543] Command sent: DELETE 5
+[2024-10-25 11:51:17.555] Received: Success: Key=5 deleted.
+[2024-10-25 11:51:17.557] Command sent: DELETE 6
+[2024-10-25 11:51:17.560] Received: Success: Key=6 deleted.
+[2024-10-25 11:51:17.561] Command sent: DELETE 7
+[2024-10-25 11:51:17.563] Received: Success: Key=7 deleted.
+[2024-10-25 11:51:17.564] Command sent: DELETE 8
+[2024-10-25 11:51:17.567] Received: Success: Key=8 deleted.
+[2024-10-25 11:51:17.567] Command sent: DELETE 9
+[2024-10-25 11:51:17.570] Received: Success: Key=9 deleted.
+[2024-10-25 11:51:17.571] All Operations Performed
+[2024-10-25 11:51:17.571] Enter 'run' to execute the operations script, 'console' to enter commands manually, or 'close' to exit: 
+[2024-10-25 11:51:43.142] Entering manual command mode. Type 'exit' to return to the main menu.
+[2024-10-25 11:52:24.279] Command sent: GET 9
+[2024-10-25 11:52:24.281] Received: Error: Key not found
+[2024-10-25 11:52:34.959] Command sent: PUT 9 Machine_Learning
+[2024-10-25 11:52:34.962] Received: Success: Key=9, Value=Machine_Learning stored.
+[2024-10-25 11:52:46.679] Command sent: GET 9
+[2024-10-25 11:52:46.681] Received: Success: Key=9, Value=Machine_Learning
+[2024-10-25 11:52:54.740] Command sent: DELETE 9
+[2024-10-25 11:52:54.745] Received: Success: Key=9 deleted.
+[2024-10-25 11:52:59.874] Command sent: GET 9 
+[2024-10-25 11:52:59.878] Received: Error: Key not found
+[2024-10-25 11:53:06.358] Enter 'run' to execute the operations script, 'console' to enter commands manually, or 'close' to exit: 
+[2024-10-25 11:53:13.374] Exiting client.
